@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T03:45:44.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bPH8AlyGPqH89u-bJvSX" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T02:55:03.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="k1u4FgrRPrk6z1G9xQDV" version="14.2.9" type="github">
   <diagram id="p8HPg3vbl-VkapSL3GHT" name="Page-1">
-    <mxGraphModel dx="2228" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,13 +69,13 @@
             <mxPoint x="580" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yp2vRg8m_nEioMY8WrKE-29" value="" style="shape=arrow;endArrow=classic;html=1;strokeColor=#C9C9C9;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="yp2vRg8m_nEioMY8WrKE-6" target="yp2vRg8m_nEioMY8WrKE-21" edge="1">
+        <mxCell id="yp2vRg8m_nEioMY8WrKE-29" value="" style="shape=arrow;endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#333333;" parent="1" source="yp2vRg8m_nEioMY8WrKE-6" target="yp2vRg8m_nEioMY8WrKE-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="590" as="sourcePoint" />
             <mxPoint x="540" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yp2vRg8m_nEioMY8WrKE-31" value="" style="shape=arrow;endArrow=classic;html=1;strokeColor=#C9C9C9;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=30;exitPerimeter=0;" parent="1" source="yp2vRg8m_nEioMY8WrKE-21" target="yp2vRg8m_nEioMY8WrKE-7" edge="1">
+        <mxCell id="yp2vRg8m_nEioMY8WrKE-31" value="" style="shape=arrow;endArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=30;exitPerimeter=0;strokeColor=#333333;" parent="1" source="yp2vRg8m_nEioMY8WrKE-21" target="yp2vRg8m_nEioMY8WrKE-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="630" as="sourcePoint" />
             <mxPoint x="440" y="240" as="targetPoint" />
@@ -87,7 +87,7 @@
         <mxCell id="yp2vRg8m_nEioMY8WrKE-33" value="&lt;p style=&quot;line-height: 70%&quot;&gt;&lt;/p&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;DataProvider&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;这里存储着录音过程中/文件中读取的原始波形数据&lt;/li&gt;&lt;li&gt;可以根据factor +&amp;nbsp;&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;centerTime + timeLength&lt;/span&gt;来读取波形图需要的一段数据&lt;/li&gt;&lt;li&gt;疏密: 根据factor来做数据离散值获取&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="960" width="320" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="yp2vRg8m_nEioMY8WrKE-35" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;strokeColor=#C9C9C9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yp2vRg8m_nEioMY8WrKE-23" target="yp2vRg8m_nEioMY8WrKE-12" edge="1">
+        <mxCell id="yp2vRg8m_nEioMY8WrKE-35" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#333333;" parent="1" source="yp2vRg8m_nEioMY8WrKE-23" target="yp2vRg8m_nEioMY8WrKE-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="960" as="sourcePoint" />
             <mxPoint x="710" y="910" as="targetPoint" />
@@ -119,7 +119,7 @@
         <mxCell id="yp2vRg8m_nEioMY8WrKE-47" value="&lt;p style=&quot;line-height: 70%&quot;&gt;&lt;/p&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;TimeRunRange&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;这里主要做时间偏移处理&lt;/li&gt;&lt;li&gt;NSDisplayLink的方式来实时的对时间进行累加&lt;/li&gt;&lt;li&gt;播放/录音SDK的暂停/继续，会对时间的累加有影响&lt;/li&gt;&lt;li&gt;主要记录一个值: CurrentPlayTime&lt;/li&gt;&lt;li&gt;并将该值同步给Context&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-230" y="755" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="yp2vRg8m_nEioMY8WrKE-49" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;strokeColor=#C9C9C9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yp2vRg8m_nEioMY8WrKE-23" target="yp2vRg8m_nEioMY8WrKE-44" edge="1">
+        <mxCell id="yp2vRg8m_nEioMY8WrKE-49" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#333333;" parent="1" source="yp2vRg8m_nEioMY8WrKE-23" target="yp2vRg8m_nEioMY8WrKE-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="780" as="sourcePoint" />
             <mxPoint x="430" y="980" as="targetPoint" />
@@ -130,7 +130,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yp2vRg8m_nEioMY8WrKE-51" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;strokeColor=#C9C9C9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=60;entryPerimeter=0;" parent="1" source="yp2vRg8m_nEioMY8WrKE-44" target="yp2vRg8m_nEioMY8WrKE-21" edge="1">
+        <mxCell id="yp2vRg8m_nEioMY8WrKE-51" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=60;entryPerimeter=0;strokeColor=#333333;" parent="1" source="yp2vRg8m_nEioMY8WrKE-44" target="yp2vRg8m_nEioMY8WrKE-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="720" as="sourcePoint" />
             <mxPoint x="240" y="720" as="targetPoint" />
@@ -141,7 +141,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yp2vRg8m_nEioMY8WrKE-54" value="" style="endArrow=classic;html=1;strokeColor=#C9C9C9;" parent="1" source="yp2vRg8m_nEioMY8WrKE-21" target="yp2vRg8m_nEioMY8WrKE-12" edge="1">
+        <mxCell id="yp2vRg8m_nEioMY8WrKE-54" value="" style="endArrow=classic;html=1;strokeColor=#333333;" parent="1" source="yp2vRg8m_nEioMY8WrKE-21" target="yp2vRg8m_nEioMY8WrKE-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="940" as="sourcePoint" />
             <mxPoint x="500" y="890" as="targetPoint" />
@@ -152,7 +152,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="du_RMS1LaNvwryW8dqtz-1" value="参数: DataArray&lt;br&gt;&amp;amp;&amp;amp; pointsDataArray" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="du_RMS1LaNvwryW8dqtz-1" value="参数: DataArray&lt;br&gt;&amp;amp;&amp;amp; pointsDataArray" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="580" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
