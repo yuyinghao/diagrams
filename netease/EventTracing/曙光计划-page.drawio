@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T08:02:33.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="QrE_mVkXKuuE-VaU9sDh" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:14:46.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="thbZsenrig-YPz-fvTSc" version="14.4.4" type="github">
   <diagram id="2VMnbliPUMn7yvVcYew5" name="Page-1">
     <mxGraphModel dx="2031" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,11 +58,11 @@
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-11" value="&lt;b&gt;&lt;font color=&quot;#333333&quot;&gt;p_Friend&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="900" y="-680.0000000000001" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qEXsqVAUmGLnPxg-KSlv-12" value="&lt;h1&gt;1. 打开App&lt;/h1&gt;&lt;p&gt;1. 此时进入app的首页，先后曝光了 p_Main, p_Home页面&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. 此时其他页面未曝光开始&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-1000" width="340" height="100" as="geometry" />
+        <mxCell id="qEXsqVAUmGLnPxg-KSlv-12" value="&lt;h1&gt;1. 打开App&lt;/h1&gt;&lt;p&gt;1. 此时进入app的首页，先后曝光了 p_Main, p_Home页面&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. 此时其他页面未曝光开始&lt;/p&gt;&lt;p&gt;3. 5个子Tab的_pgrefer都等于p_Main&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-1000" width="340" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="qEXsqVAUmGLnPxg-KSlv-13" value="&lt;h1&gt;2. 点击声音Tab&lt;/h1&gt;&lt;p&gt;1. p_Home曝光结束，p_Voice曝光开始&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. 声音首页的Rcmd tab页面初始化好，触发曝光开始&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="94" y="-530" width="340" height="100" as="geometry" />
+        <mxCell id="qEXsqVAUmGLnPxg-KSlv-13" value="&lt;h1&gt;2. 点击声音Tab&lt;/h1&gt;&lt;p&gt;1. p_Home曝光结束，p_Voice曝光开始&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. 声音首页的Rcmd tab页面初始化好，触发曝光开始&lt;/p&gt;&lt;p&gt;3. p_Rcmd的_pgrefer等于p_Voice&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="94" y="-530" width="340" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qEXsqVAUmGLnPxg-KSlv-19" target="qEXsqVAUmGLnPxg-KSlv-20">
           <mxGeometry relative="1" as="geometry">
@@ -146,8 +146,8 @@
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-30" value="&lt;b&gt;&lt;font&gt;p_Cate&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="490" y="-120.00000000000011" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qEXsqVAUmGLnPxg-KSlv-31" value="&lt;h1&gt;3. 点击“分类”子Tab&lt;/h1&gt;&lt;p&gt;1. p_Rcmd曝光结束，p_Cate曝光开始&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="94" y="30" width="340" height="80" as="geometry" />
+        <mxCell id="qEXsqVAUmGLnPxg-KSlv-31" value="&lt;h1&gt;3. 点击“分类”子Tab&lt;/h1&gt;&lt;p&gt;1. p_Rcmd曝光结束，p_Cate曝光开始&lt;/p&gt;&lt;p&gt;2. p_Cate的_pgrefer等于p_Rcmd（不管点击过来还是滑动过来？）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="94" y="30" width="386" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qEXsqVAUmGLnPxg-KSlv-37" target="qEXsqVAUmGLnPxg-KSlv-38">
           <mxGeometry relative="1" as="geometry">
@@ -231,8 +231,8 @@
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-48" value="&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;p_Cate&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="490" y="419.9999999999999" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qEXsqVAUmGLnPxg-KSlv-49" value="&lt;h1&gt;4. 向左滑动切换到“推荐”子Tab&lt;/h1&gt;&lt;p&gt;1. p_Cate曝光结束，p_Rcmd曝光开始&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="94" y="580" width="406" height="80" as="geometry" />
+        <mxCell id="qEXsqVAUmGLnPxg-KSlv-49" value="&lt;h1&gt;4. 向左滑动切换到“推荐”子Tab&lt;/h1&gt;&lt;p&gt;1. p_Cate曝光结束，p_Rcmd曝光开始&lt;/p&gt;&lt;p&gt;2. p_Rcmd的_pgrefer等于p_Cate&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="94" y="580" width="406" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qEXsqVAUmGLnPxg-KSlv-55" target="qEXsqVAUmGLnPxg-KSlv-56">
           <mxGeometry relative="1" as="geometry">
@@ -316,8 +316,8 @@
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-66" value="&lt;b&gt;&lt;font&gt;p_Cate&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="490" y="999.9999999999999" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qEXsqVAUmGLnPxg-KSlv-67" value="&lt;h1&gt;5. 点击首页主Tab&lt;/h1&gt;&lt;p&gt;1. p_Rcmd, p_Voice曝光结束，p_Home曝光开始&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="94" y="1150" width="406" height="80" as="geometry" />
+        <mxCell id="qEXsqVAUmGLnPxg-KSlv-67" value="&lt;h1&gt;5. 点击首页主Tab&lt;/h1&gt;&lt;p&gt;1. p_Rcmd, p_Voice曝光结束，p_Home曝光开始&lt;/p&gt;&lt;p&gt;2. p_Home的_pgrefer等于p_Voice?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="94" y="1150" width="406" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qEXsqVAUmGLnPxg-KSlv-73" target="qEXsqVAUmGLnPxg-KSlv-74">
           <mxGeometry relative="1" as="geometry">
@@ -401,14 +401,14 @@
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-84" value="&lt;b&gt;&lt;font&gt;p_Cate&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="500" y="1560" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qEXsqVAUmGLnPxg-KSlv-85" value="&lt;h1&gt;6. 点击一首歌曲，进入播放页&lt;/h1&gt;&lt;p&gt;1. p_Home, p_Main曝光结束，p_SongPlay曝光开始&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="104" y="1690" width="406" height="80" as="geometry" />
+        <mxCell id="qEXsqVAUmGLnPxg-KSlv-85" value="&lt;h1&gt;6. 点击一首歌曲，进入播放页&lt;/h1&gt;&lt;p&gt;1. p_Home, p_Main曝光结束，p_SongPlay曝光开始&lt;/p&gt;&lt;p&gt;2. p_SongPlay的_pgrefer等于当前歌曲点击(_spm+_actseq+_pgstep)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="104" y="1690" width="406" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-86" value="&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;p_SongPlay&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="560" y="1810" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qEXsqVAUmGLnPxg-KSlv-87" value="&lt;h1&gt;7. 点击，展开更多浮层&lt;/h1&gt;&lt;p&gt;1. 将p_SongMoreOpView逻辑挂载到当前&lt;b&gt;最叶子节点&lt;/b&gt;名下，这里是p_SongPlay&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. p_SongMoreOpView曝光开始&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="94" y="1970" width="486" height="110" as="geometry" />
+        <mxCell id="qEXsqVAUmGLnPxg-KSlv-87" value="&lt;h1&gt;7. 点击，展开更多浮层&lt;/h1&gt;&lt;p&gt;1. 将p_SongMoreOpView逻辑挂载到当前&lt;b&gt;最叶子节点&lt;/b&gt;名下，这里是p_SongPlay&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. p_SongMoreOpView曝光开始&lt;/p&gt;&lt;p&gt;3. p_SongMoreOpView的_pgrefer等于p_SongPlay&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="94" y="1970" width="486" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qEXsqVAUmGLnPxg-KSlv-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#EA6B66;" edge="1" parent="1" source="qEXsqVAUmGLnPxg-KSlv-89" target="qEXsqVAUmGLnPxg-KSlv-90">
           <mxGeometry relative="1" as="geometry" />
