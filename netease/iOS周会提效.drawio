@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T10:28:01.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.2.9" etag="aOiiOCRwsF0vYQiuuMQ9" type="github"><diagram id="YLXb0AcJSRfOy3ED7Glo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-06T15:59:01.456Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="gKWgC80KRjvqELItaasB" version="14.4.3" type="github">
+  <diagram id="YLXb0AcJSRfOy3ED7Glo" name="Page-1">
+    <mxGraphModel dx="912" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HwW1XpfB2SzH11YWDC54-27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;fillColor=#E6E6E6;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="820" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-1" target="HwW1XpfB2SzH11YWDC54-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-1" value="&lt;font color=&quot;#a20025&quot;&gt;测试同学&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-2" target="HwW1XpfB2SzH11YWDC54-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-12" style="rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-2" target="HwW1XpfB2SzH11YWDC54-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-2" value="测试周报" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="280" y="215" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-3" value="&lt;h1&gt;周报内容&lt;/h1&gt;&lt;p&gt;1. 质量头条&lt;/p&gt;&lt;p&gt;2. 线上质量 列表&lt;/p&gt;&lt;p&gt;3. 线下质量 典型bug/reopen 列表&lt;/p&gt;&lt;p&gt;4. 版本情况&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-9" style="edgeStyle=entityRelationEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-5" target="HwW1XpfB2SzH11YWDC54-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-5" value="按照周报内容&lt;br&gt;依次讨论" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-16" style="edgeStyle=none;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-8" target="HwW1XpfB2SzH11YWDC54-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-29" style="edgeStyle=none;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;dashed=1;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-8" target="HwW1XpfB2SzH11YWDC54-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-8" value="典型问题详细讨论&lt;br&gt;bug &amp;amp; reopen" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-14" style="edgeStyle=none;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-13" target="HwW1XpfB2SzH11YWDC54-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-13" value="&lt;h1&gt;周报内容&lt;/h1&gt;&lt;p&gt;1. 问题讨论的目的: 不清晰&lt;/p&gt;&lt;p&gt;&lt;span&gt;2. 责任人未提前做详细准备&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3. 问题的边界不清晰&lt;/p&gt;&lt;p&gt;4. TODO事宜不能很好的跟踪&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="180" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-20" style="edgeStyle=none;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-15" target="HwW1XpfB2SzH11YWDC54-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-25" style="edgeStyle=none;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;dashed=1;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-15" target="HwW1XpfB2SzH11YWDC54-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-15" value="其他问题讨论" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#ffffff;strokeColor=none;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="470" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-21" style="edgeStyle=none;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-18" target="HwW1XpfB2SzH11YWDC54-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-18" value="超时了" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#ffffff;strokeColor=none;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="110" y="575" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-26" style="edgeStyle=none;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;dashed=1;" edge="1" parent="1" source="HwW1XpfB2SzH11YWDC54-18" target="HwW1XpfB2SzH11YWDC54-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-22" value="&lt;h1&gt;时间控制&lt;/h1&gt;&lt;p&gt;1. 很容易超时&lt;/p&gt;&lt;p&gt;&lt;span&gt;2. 大家反响比较强烈&lt;/span&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="640" width="190" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HwW1XpfB2SzH11YWDC54-23" value="&lt;h1&gt;与会人员&lt;/h1&gt;&lt;p&gt;1. 易跑神&lt;/p&gt;&lt;p&gt;&lt;span&gt;2. 做自己的事情，被cue时才关注&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3. 问题讨论参与度不够高&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="445" width="190" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
