@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T07:16:20.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="I-UkcHOfEc37KDj1hzrH" type="github"><diagram id="bDunZlORcU0Rh12L1ScC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-06T07:42:48.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="nnJvWYamCLx1GvqbufwW" version="14.4.3" type="github">
+  <diagram id="bDunZlORcU0Rh12L1ScC" name="Page-1">
+    <mxGraphModel dx="760" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--14" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="23" y="22" width="567" height="329" as="geometry" />
+        </mxCell>
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--2" value="&lt;font color=&quot;#ffffff&quot;&gt;BI日志&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#EA6B66;fillColor=#EA6B66;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="168" y="39" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--8" value="&lt;font color=&quot;#ffffff&quot;&gt;监控日志&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#EA6B66;strokeColor=none;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="59" y="162" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--9" value="&lt;font color=&quot;#ffffff&quot;&gt;网络诊断日志&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#EA6B66;strokeColor=none;fillColor=#FF66B3;" vertex="1" parent="1">
+          <mxGeometry x="139" y="262" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--10" value="&lt;font color=&quot;#ffffff&quot;&gt;实时日志&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#EA6B66;strokeColor=none;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="271" y="128" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--11" value="&lt;font color=&quot;#ffffff&quot;&gt;MAM日志&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#EA6B66;strokeColor=none;fillColor=#6600CC;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="252" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--12" value="&lt;font color=&quot;#ffffff&quot;&gt;。。。&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#EA6B66;strokeColor=none;fillColor=#999900;" vertex="1" parent="1">
+          <mxGeometry x="472" y="242" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Z_VYH6tYQhVHWEc7TY--13" value="&lt;font color=&quot;#ffffff&quot;&gt;准实时日志&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#EA6B66;strokeColor=none;fillColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="409" y="128" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
