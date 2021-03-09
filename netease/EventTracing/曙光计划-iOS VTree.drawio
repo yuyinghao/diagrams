@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:21:26.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="jykXGu76cHFyj-cEvfCB" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:34:05.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="ZrfvppM8OUXiEt4bu3op" version="14.4.4" type="github">
   <diagram id="VYMUzPChVgCTFLQNsk6v" name="Page-1">
     <mxGraphModel dx="1693" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,6 +22,14 @@
         <mxCell id="CzlUhov0SnCZU1POkyCt-8" value="&lt;span style=&quot;font-size: 12px ; font-family: &amp;#34;helvetica&amp;#34; ; background-color: rgb(248 , 249 , 250)&quot;&gt;判断View是否&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; font-family: &amp;#34;helvetica&amp;#34; ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; font-family: &amp;#34;helvetica&amp;#34; ; background-color: rgb(248 , 249 , 250)&quot;&gt;page/element？&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CzlUhov0SnCZU1POkyCt-7">
           <mxGeometry x="-0.1636" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CzlUhov0SnCZU1POkyCt-36" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="CzlUhov0SnCZU1POkyCt-4" target="CzlUhov0SnCZU1POkyCt-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlUhov0SnCZU1POkyCt-37" value="队列为空？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CzlUhov0SnCZU1POkyCt-36">
+          <mxGeometry x="0.2513" relative="1" as="geometry">
+            <mxPoint x="21.67" y="-0.33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CzlUhov0SnCZU1POkyCt-4" value="pop队头元素&lt;br&gt;Queue.first" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -115,6 +123,9 @@
         </mxCell>
         <mxCell id="CzlUhov0SnCZU1POkyCt-28" value="该元素就是顶层&lt;br&gt;page/element" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="730" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlUhov0SnCZU1POkyCt-35" value="End" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
