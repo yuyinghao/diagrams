@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T02:38:59.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="_lEYDevdhdbLdg2pea84" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T02:49:36.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="jmZMiTH0SqP9YFIF_3Eq" version="14.4.6" type="github">
   <diagram id="Fw7ZkmO-Fz_IXCNn4WgB" name="Page-1">
     <mxGraphModel dx="2858" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -507,6 +507,9 @@
         <mxCell id="tUdVWyh1depMTYAJVUoq-20" value="&lt;b&gt;遮挡计算&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="417.3" y="1020.63" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="tUdVWyh1depMTYAJVUoq-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tUdVWyh1depMTYAJVUoq-21" target="tUdVWyh1depMTYAJVUoq-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tUdVWyh1depMTYAJVUoq-21" value="&lt;b&gt;Node Prepare Data&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="850" width="120" height="50" as="geometry" />
         </mxCell>
@@ -533,6 +536,9 @@
         </mxCell>
         <mxCell id="tUdVWyh1depMTYAJVUoq-28" value="&lt;b&gt;output&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1037.3" y="1020.63" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tUdVWyh1depMTYAJVUoq-33" value="&lt;h1&gt;Prepare Data（需要在主线程）&lt;/h1&gt;&lt;p&gt;1. 设置对象维度的params&lt;/p&gt;&lt;p&gt;2. 计算node维度的VisibleRect（结果都是相对于parentNode的值）&lt;br&gt;&amp;nbsp; - 一种是仅仅相对于parentNode的VisibleRect&lt;br&gt;&amp;nbsp; - 一种是向上递归view树计算的VisibleRect&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="572.6" y="760" width="390" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
