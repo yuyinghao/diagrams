@@ -1,1 +1,161 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T02:34:38.150Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.6" etag="nQqA6HDj0sGPiZlQ033l" type="github"><diagram id="1F6ruFP7Ai8xagb3oTsm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-17T03:26:33.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="6QuWVXnjIqfUn5anVjPI" version="14.4.6" type="github">
+  <diagram id="1F6ruFP7Ai8xagb3oTsm" name="Page-1">
+    <mxGraphModel dx="1693" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-1" target="VSrHJtwwMS7nzMWBozCE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-76" value="当前用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-6">
+          <mxGeometry x="-0.1315" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-1" target="VSrHJtwwMS7nzMWBozCE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-75" value="当前用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-7">
+          <mxGeometry x="-0.1251" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-1" value="V0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-81" target="VSrHJtwwMS7nzMWBozCE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-80" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#333333;strokeColor=#333333;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-3" target="VSrHJtwwMS7nzMWBozCE-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-3" value="&lt;b&gt;userId != 0&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="230" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-4" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#666666&quot;&gt;日志版本:&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;1. V0: 老版本的明文日志，之前没有接入过NEBIlogger&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;2. V1: 曾经接入过NEBIlogger库，之前产生的日志文件&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;3. V2: 本次版本产生的日志&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-5" value="userId == 0&lt;br&gt;不需要处理迁移" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFE6CC;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-17" target="VSrHJtwwMS7nzMWBozCE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-84" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-21">
+          <mxGeometry x="-0.1553" y="-1" relative="1" as="geometry">
+            <mxPoint x="11.48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-17" target="VSrHJtwwMS7nzMWBozCE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-83" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-22">
+          <mxGeometry x="0.0285" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-17" value="&lt;b&gt;F0?&lt;/b&gt;" style="triangle;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="620" y="565" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-81" target="VSrHJtwwMS7nzMWBozCE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-19" value="日志文件签名成&lt;br&gt;当前用户" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="796" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-20" value="日志文件签名成&lt;br&gt;空字符串" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="796" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-24" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#666666&quot;&gt;不建议迁移V0版本的userId==0的日志:&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;1. 老的日志，userId==0的日志文件不知道是什么时候产生的，按照这个规则，可能归属于其他user，如果在这里做了迁移，就有点多余了&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="640" y="380" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-27" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#666666&quot;&gt;V0版本日志迁移:&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;1.&amp;nbsp;delegate回调中根据当前userId返回一个文件列表&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;2. 相关协议&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;NEBILoggerUALogMigrateProtocol&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="810" y="150" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-69" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#666666&quot;&gt;moveToNextUserForUnLogin:&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;1. 释义：是否将userId==0的日志，归属到下一个用户头上&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;2. 简称：下面简称 F0&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-79" value="&lt;b&gt;迁移当前&lt;br&gt;用户名下日志&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="414" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-81" value="&lt;b&gt;迁移&lt;br&gt;userId==0日志&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="414" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-82" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-3" target="VSrHJtwwMS7nzMWBozCE-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="540.8333333333333" as="sourcePoint" />
+            <mxPoint x="620" y="589.5833333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-89" target="VSrHJtwwMS7nzMWBozCE-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-86" value="当前用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-85">
+          <mxGeometry x="-0.1315" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-89" target="VSrHJtwwMS7nzMWBozCE-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-88" value="当前用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-87">
+          <mxGeometry x="-0.1251" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-89" value="V1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="60" y="800" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-90" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-104" target="VSrHJtwwMS7nzMWBozCE-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-91" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#333333;strokeColor=#333333;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-92" target="VSrHJtwwMS7nzMWBozCE-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-92" value="&lt;b&gt;userId != 0&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="250" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-93" value="userId == 0&lt;br&gt;不需要处理迁移" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontColor=#999999;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="250" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-98" target="VSrHJtwwMS7nzMWBozCE-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-95" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-94">
+          <mxGeometry x="-0.1553" y="-1" relative="1" as="geometry">
+            <mxPoint x="11.48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-96" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-98" target="VSrHJtwwMS7nzMWBozCE-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-97" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#333333;" vertex="1" connectable="0" parent="VSrHJtwwMS7nzMWBozCE-96">
+          <mxGeometry x="0.0285" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-98" value="&lt;b&gt;F0?&lt;/b&gt;" style="triangle;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="640" y="955" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-100" value="日志文件签名成&lt;br&gt;当前用户" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="816" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-101" value="日志文件签名成&lt;br&gt;空字符串" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="816" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-103" value="&lt;b&gt;迁移当前&lt;br&gt;用户名下日志&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="434" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-104" value="&lt;b&gt;迁移&lt;br&gt;userId==0日志&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="434" y="965" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSrHJtwwMS7nzMWBozCE-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSrHJtwwMS7nzMWBozCE-92" target="VSrHJtwwMS7nzMWBozCE-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="930.8333333333333" as="sourcePoint" />
+            <mxPoint x="640" y="979.5833333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
