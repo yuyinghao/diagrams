@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T07:27:58.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="EqJx7Ftzk1G8NJLtzdxJ" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T07:29:12.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="HgVjO8cSwEajlbOj9dOb" version="14.4.6" type="github">
   <diagram id="VYMUzPChVgCTFLQNsk6v" name="Page-1">
     <mxGraphModel dx="2031" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -870,8 +870,8 @@
         <mxCell id="cyA3pmxKQOGwFD6kIu9t-286" value="将该节点删除&lt;br&gt;并且不再遍历subviews" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="245" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyA3pmxKQOGwFD6kIu9t-289" value="&lt;h1&gt;初步判断元素的visible&lt;/h1&gt;&lt;p&gt;1. 存在三个策略: 如右图&lt;/p&gt;&lt;p&gt;2. 默认策略是第 OnParentNode，该策略遍历层级少，性能最好，可满足绝大部分场景&lt;/p&gt;&lt;p&gt;3. 这里会用到 visibleEdgeInsets (top, left, bottom, right四个值) ，图解参见https://www.notion.so/6572c468194b4173b981c51a63feefdd&amp;nbsp;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="346" y="510" width="510" height="140" as="geometry" />
+        <mxCell id="cyA3pmxKQOGwFD6kIu9t-289" value="&lt;h1&gt;初步判断元素的visible&lt;/h1&gt;&lt;p&gt;1. 存在三个策略: 如右图&lt;/p&gt;&lt;p&gt;2. 默认策略是第 OnParentNode，该策略遍历层级少，性能最好，可满足绝大部分场景&lt;/p&gt;&lt;p&gt;3. 这里会用到 visibleEdgeInsets (top, left, bottom, right四个值) ，图解参见https://www.notion.so/6572c468194b4173b981c51a63feefdd&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;4. 截止到这里，代码还是运行在主线程，所以更多的“遮挡”逻辑，不再这里做&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="346" y="510" width="510" height="170" as="geometry" />
         </mxCell>
         <mxCell id="cyA3pmxKQOGwFD6kIu9t-292" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cyA3pmxKQOGwFD6kIu9t-290" target="cyA3pmxKQOGwFD6kIu9t-289">
           <mxGeometry relative="1" as="geometry" />
