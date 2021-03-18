@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T07:12:24.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="NsdndCNvdTbjRlO7YKHr" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T07:18:27.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="5dkEVEEd0tzHH2N0VIHo" version="14.4.6" type="github">
   <diagram id="VYMUzPChVgCTFLQNsk6v" name="Page-1">
     <mxGraphModel dx="2031" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
             <mxPoint x="21.67" y="-0.33" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CzlUhov0SnCZU1POkyCt-4" value="pop队头元素&lt;br&gt;Queue.first" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CzlUhov0SnCZU1POkyCt-4" value="pop队末元素&lt;br&gt;Queue.last" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="65" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CzlUhov0SnCZU1POkyCt-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CzlUhov0SnCZU1POkyCt-6" target="CzlUhov0SnCZU1POkyCt-20" edge="1">
@@ -66,18 +66,21 @@
         <mxCell id="CzlUhov0SnCZU1POkyCt-27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="1" source="CzlUhov0SnCZU1POkyCt-16" target="CzlUhov0SnCZU1POkyCt-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CzlUhov0SnCZU1POkyCt-16" value="View.subviews&lt;br&gt;-&amp;gt; Queue队尾" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="cyA3pmxKQOGwFD6kIu9t-274" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="CzlUhov0SnCZU1POkyCt-16" target="cyA3pmxKQOGwFD6kIu9t-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlUhov0SnCZU1POkyCt-16" value="View.subviews&lt;br&gt;-&amp;gt; Queue顺序入队头" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="65" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CzlUhov0SnCZU1POkyCt-22" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=horizontal;html=1;" parent="1" source="CzlUhov0SnCZU1POkyCt-20" target="CzlUhov0SnCZU1POkyCt-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CzlUhov0SnCZU1POkyCt-24" value="找到了？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CzlUhov0SnCZU1POkyCt-22" vertex="1" connectable="0">
+        <mxCell id="CzlUhov0SnCZU1POkyCt-24" value="存在？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CzlUhov0SnCZU1POkyCt-22" vertex="1" connectable="0">
           <mxGeometry x="-0.2763" relative="1" as="geometry">
             <mxPoint x="-0.03" y="8.62" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CzlUhov0SnCZU1POkyCt-20" value="向上查找最近的一个&lt;br&gt;page/element" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CzlUhov0SnCZU1POkyCt-20" value="是否存在父节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="295" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CzlUhov0SnCZU1POkyCt-26" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="1" source="CzlUhov0SnCZU1POkyCt-21" target="CzlUhov0SnCZU1POkyCt-25" edge="1">
@@ -108,7 +111,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CzlUhov0SnCZU1POkyCt-25" value="将该page/element&lt;br&gt;挂在parent的子节点下" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CzlUhov0SnCZU1POkyCt-25" value="将该page/element&lt;br&gt;挂在父节点下" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="545" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CzlUhov0SnCZU1POkyCt-33" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CzlUhov0SnCZU1POkyCt-28" target="CzlUhov0SnCZU1POkyCt-16" edge="1">
@@ -845,6 +848,9 @@
         </mxCell>
         <mxCell id="cyA3pmxKQOGwFD6kIu9t-272" value="&lt;h1&gt;BFS遍历&lt;/h1&gt;&lt;p&gt;1. 广度遍历&lt;/p&gt;&lt;p&gt;2. 遍历顺序为: 1 -&amp;gt; 11&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="810" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cyA3pmxKQOGwFD6kIu9t-273" value="&lt;h1&gt;subviews &amp;amp; 接入逻辑挂载&lt;/h1&gt;&lt;p&gt;1. 逻辑挂载会在 view &amp;amp; superView 之间建立一个纽带&lt;/p&gt;&lt;p&gt;2. 当需要获取 subviews 的时候，被逻辑挂载的子view，也会添加在数组中&lt;/p&gt;&lt;p&gt;3. 同理，如果获取 view.superView 的时候，如果存在逻辑挂载，则返回的是逻辑挂载的父view&lt;/p&gt;&lt;p&gt;4. iOS相关方法: ET_subviews, ET_superView&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="535" y="-195" width="510" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
