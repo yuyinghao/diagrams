@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T12:23:07.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="6eCo_golbXo9teYWzgnt" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T12:55:17.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="w4CJ5Dk47AC1DZD8OLWi" version="14.4.9" type="github">
   <diagram id="2d6VyGCob0dpQfUCWXrP" name="Page-1">
     <mxGraphModel dx="911" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,12 +26,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-14" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
-          <mxGeometry x="721" y="280" width="200" height="400" as="geometry" />
+          <mxGeometry x="840" y="280" width="200" height="400" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-15" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="314" y="360" width="175" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yfKhijPMggqKRTxiLk1A-16" value="搜索结果页" style="text;fontSize=10;verticalAlign=middle;align=center;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-15">
+        <mxCell id="yfKhijPMggqKRTxiLk1A-16" value="搜索结果页" style="text;fontSize=10;verticalAlign=middle;align=center;spacingTop=2;fontStyle=1" vertex="1" parent="yfKhijPMggqKRTxiLk1A-15">
           <mxGeometry x="58.68902439024391" width="57.621951219512205" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-24" value="" style="shape=rect;strokeColor=none;fillColor=#ffffff;gradientColor=none;shadow=0;" vertex="1" parent="1">
@@ -132,13 +132,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-43" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="733.5" y="360" width="175" height="20" as="geometry" />
+          <mxGeometry x="852.5" y="360" width="175" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yfKhijPMggqKRTxiLk1A-44" value="播放页(Song_2)" style="text;fontSize=10;verticalAlign=middle;align=center;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-43">
+        <mxCell id="yfKhijPMggqKRTxiLk1A-44" value="播放页(Song_2)" style="text;fontSize=10;verticalAlign=middle;align=center;spacingTop=2;fontStyle=1" vertex="1" parent="yfKhijPMggqKRTxiLk1A-43">
           <mxGeometry x="58.68902439024391" width="57.621951219512205" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-45" value="" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7ui.appBar;fillColor=#ffffff;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="733.5" y="340" width="175" height="15" as="geometry" />
+          <mxGeometry x="852.5" y="340" width="175" height="15" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-46" value="CARRIER" style="shape=rect;align=left;fontSize=8;spacingLeft=24;fontSize=4;fontColor=#aaaaaa;strokeColor=none;fillColor=none;spacingTop=4;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-45">
           <mxGeometry y="0.5" width="50" height="13" relative="1" as="geometry">
@@ -156,22 +156,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-52" value="黑胶&lt;br&gt;转盘" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;gradientColor=none;strokeColor=none;fillColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="756" y="430" width="130" height="130" as="geometry" />
+          <mxGeometry x="875" y="430" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-54" value="打开&lt;b&gt;page_search_result:&lt;/b&gt;&lt;br&gt;此时: &lt;font color=&quot;#cc6600&quot;&gt;_&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;actseq==1&lt;/font&gt;, &lt;font color=&quot;#4d9900&quot;&gt;_pgstep==3&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="301" y="230" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yfKhijPMggqKRTxiLk1A-57" value="_spm: &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;song_2|page_result_result&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="yfKhijPMggqKRTxiLk1A-57" value="_spm: &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;song_2|page_search_result&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="51" y="410" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-107" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfKhijPMggqKRTxiLk1A-59" target="yfKhijPMggqKRTxiLk1A-106">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-59" value="&lt;b&gt;click事件:&lt;br&gt;&lt;font color=&quot;#cc6600&quot;&gt;_actseq +1&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="501" y="380" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-60" value="打开&lt;b&gt;page_songplay:&lt;br&gt;此时: &lt;font color=&quot;#cc6600&quot;&gt;_actseq==1&lt;/font&gt;, &lt;font color=&quot;#4d9900&quot;&gt;_pgstep==4&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="721" y="230" width="200" height="40" as="geometry" />
+          <mxGeometry x="840" y="230" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yfKhijPMggqKRTxiLk1A-61" value="&lt;h1&gt;_pgrefer:&lt;/h1&gt;&lt;p&gt;1. 本次播放页的打开，来源于搜索结果页列表song_2歌曲cell的点击&lt;/p&gt;&lt;p&gt;2. 格式: [e][_actseq][_pgstep][_spm]&lt;/p&gt;&lt;p&gt;3. 值是: [e][&lt;font color=&quot;#cc6600&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;][&lt;b&gt;&lt;font color=&quot;#4d9900&quot;&gt;3]&lt;/font&gt;&lt;/b&gt;[&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;song_2|page_result_result&lt;/font&gt;&lt;/b&gt;]&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="951" y="240" width="290" height="170" as="geometry" />
+        <mxCell id="yfKhijPMggqKRTxiLk1A-61" value="&lt;h1&gt;_pgrefer:&lt;/h1&gt;&lt;p&gt;1. 本次播放页的打开，来源于搜索结果页列表song_2歌曲cell的点击&lt;/p&gt;&lt;p&gt;2. 格式: [e][_actseq][_pgstep][_spm]&lt;/p&gt;&lt;p&gt;3. 值是: &lt;b&gt;[e][&lt;font color=&quot;#cc6600&quot;&gt;2&lt;/font&gt;][&lt;font color=&quot;#4d9900&quot;&gt;3]&lt;/font&gt;[&lt;font color=&quot;#ff0000&quot;&gt;song_2|page_search_result&lt;/font&gt;]&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="240" width="290" height="170" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-62" value="&lt;h1&gt;_pgrefer:&lt;/h1&gt;&lt;p&gt;1. 场景：在搜索结果页，显示一个歌曲列表&lt;/p&gt;&lt;p&gt;2. 点击song_2歌曲cell，将6首歌添加到播放列表，并且从song_2开始播放，同时进入到了播放页&lt;/p&gt;&lt;p&gt;3. 播放页的_pgrefer 就是 &lt;b&gt;搜索结果页列表song_2歌曲cell的点击事件&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="30" y="20" width="420" height="160" as="geometry" />
@@ -180,7 +183,311 @@
           <mxGeometry x="51" y="465" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yfKhijPMggqKRTxiLk1A-64" value="&lt;h1&gt;_addrefer &amp;amp; _playrefer:&lt;/h1&gt;&lt;p&gt;1. _addrefer: 描述歌曲是怎么被添加到播放列表的（类似于原来播放埋点的source）&lt;/p&gt;&lt;p&gt;2. _playrefer: 描述歌曲是什么原因被播放的&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="51" y="790" width="420" height="120" as="geometry" />
+          <mxGeometry x="51" y="760" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-106" value="&lt;h1&gt;click事件发生时:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;1. _spm: song_2|page_search_result&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. _actseq: 2&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. _pgstep: 3&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="229" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-130" value="" style="whiteSpace=wrap;html=1;shadow=0;gradientColor=none;fillColor=none;strokeColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1070" width="179" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-131" value="" style="shape=rect;strokeColor=none;fillColor=#ffffff;gradientColor=none;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1110" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-132" value="Song_1" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-131">
+          <mxGeometry width="175" height="20" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-133" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#FF9501;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-132">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-134" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-132">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-135" value="Song_2" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-131">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-136" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#FFB570;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-135">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-137" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-135">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-138" value="Song_3" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-131">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-139" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#4CDA64;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-138">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-140" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-138">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-141" value="Song_4" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-131">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-142" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#007AFF;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-141">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-143" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-141">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-144" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yfKhijPMggqKRTxiLk1A-131" source="yfKhijPMggqKRTxiLk1A-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-145" value="将6首歌曲添加到播放列表&lt;br&gt;&amp;amp;&amp;amp; 播放Song_2&lt;br&gt;&amp;amp;&amp;amp; 打开播放页" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfKhijPMggqKRTxiLk1A-131" source="yfKhijPMggqKRTxiLk1A-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-146" value="Song_5" style="shape=rect;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;dashed=1;dashPattern=1 1;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-131">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-147" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#5855D6;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-146">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-148" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-146">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-194" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;gradientColor=none;fontColor=#FF0000;fillColor=#FF0000;strokeColor=none;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-146">
+          <mxGeometry x="140" y="5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-149" value="Song_x2" style="shape=rect;strokeColor=none;fontSize=10;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-131">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-150" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-149">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-151" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-149">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-153" value="&lt;b&gt;播放列表&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="839" y="1080" width="81" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-154" value="Song_6" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1230" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-155" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#8F8E94;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-154">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-156" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-154">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-160" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="272" y="970" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-161" value="" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7ui.appBar;fillColor=#ffffff;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1030" width="175" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-162" value="CARRIER" style="shape=rect;align=left;fontSize=8;spacingLeft=24;fontSize=4;fontColor=#aaaaaa;strokeColor=none;fillColor=none;spacingTop=4;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-161">
+          <mxGeometry y="0.5" width="50" height="13" relative="1" as="geometry">
+            <mxPoint y="-6.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-163" value="11:55PM" style="shape=rect;fontSize=8;fontColor=#aaaaaa;strokeColor=none;fillColor=none;spacingTop=4;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-161">
+          <mxGeometry x="0.5" y="0.5" width="50" height="13" relative="1" as="geometry">
+            <mxPoint x="-30" y="-6.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-164" value="98%" style="shape=rect;align=right;fontSize=8;spacingRight=19;fontSize=6;fontColor=#aaaaaa;strokeColor=none;fillColor=none;spacingTop=4;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-161">
+          <mxGeometry x="1" y="0.5" width="45" height="13" relative="1" as="geometry">
+            <mxPoint x="-45" y="-6.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-165" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1050" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-166" value="个人主页" style="text;fontSize=10;verticalAlign=middle;align=center;spacingTop=2;fontStyle=1" vertex="1" parent="yfKhijPMggqKRTxiLk1A-165">
+          <mxGeometry x="58.68902439024391" width="57.621951219512205" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-167" value="" style="shape=rect;strokeColor=none;fillColor=#ffffff;gradientColor=none;shadow=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="285" y="1080" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-168" value="Song_x1" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-167">
+          <mxGeometry width="175" height="20" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-169" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#FF9501;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-168">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-170" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-168">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-171" value="Song_2" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-167">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-172" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#FF3B2F;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-171">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-173" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-171">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-174" value="Song_x3" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-167">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-175" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#4CDA64;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-174">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-176" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-174">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-177" value="Song_x4" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-167">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-178" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#007AFF;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-177">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-179" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-177">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-180" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yfKhijPMggqKRTxiLk1A-167" source="yfKhijPMggqKRTxiLk1A-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-181" value="将6首歌曲添加到播放列表&lt;br&gt;&amp;amp;&amp;amp; 播放Song_2&lt;br&gt;&amp;amp;&amp;amp; 打开播放页" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfKhijPMggqKRTxiLk1A-167" source="yfKhijPMggqKRTxiLk1A-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-182" value="Song_x5" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-167">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-183" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#5855D6;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-182">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-184" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-182">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-185" value="Song_x6" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingLeft=25;spacingTop=2;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-167">
+          <mxGeometry width="175" height="20" relative="1" as="geometry">
+            <mxPoint y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-186" value="" style="shape=rect;rounded=1;rSize=3;strokeColor=none;fillColor=#8F8E94;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-185">
+          <mxGeometry y="0.5" width="15" height="15" relative="1" as="geometry">
+            <mxPoint x="5" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-187" value="" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;" vertex="1" parent="yfKhijPMggqKRTxiLk1A-185">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-188" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfKhijPMggqKRTxiLk1A-167" source="yfKhijPMggqKRTxiLk1A-171" target="yfKhijPMggqKRTxiLk1A-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-193" value="&lt;font color=&quot;#000000&quot;&gt;将song_x2歌曲添加&lt;br&gt;到当前播放歌曲后面&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="yfKhijPMggqKRTxiLk1A-188">
+          <mxGeometry x="-0.0398" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-196" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="yfKhijPMggqKRTxiLk1A-189" target="yfKhijPMggqKRTxiLk1A-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-189" value="&lt;b&gt;click事件:&lt;br&gt;&lt;font color=&quot;#cc6600&quot;&gt;_actseq +1&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="1080" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-190" value="打开&lt;b&gt;page_user:&lt;/b&gt;&lt;br&gt;此时: &lt;font color=&quot;#cc6600&quot;&gt;_&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;actseq==1&lt;/font&gt;, &lt;font color=&quot;#4d9900&quot;&gt;_pgstep==10&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="272" y="920" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-192" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="yfKhijPMggqKRTxiLk1A-191" target="yfKhijPMggqKRTxiLk1A-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-191" value="_spm: &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;song_2|page_user&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="51" y="1100" width="159" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-195" value="&lt;h1&gt;click事件发生时:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;1. _spm: song_2|page_user&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. _actseq: 2&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. _pgstep: 11&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="925" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-197" value="&lt;h1&gt;歌曲播放顺序:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;1. 上面将6个歌曲添加到播放列表，从song_2开始播放&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. 然后歌曲依次播放到song_4&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. 播放页按钮“&lt;font color=&quot;#ff0000&quot;&gt;下一首&lt;/font&gt;”被点击，歌曲切换到song_5&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;4. 个人主页点击song_2，将歌曲添加到当前歌曲后面&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="790" y="880" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-199" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.left;strokeColor=#0080f0;dashPattern=1 1;fillColor=#FF0000;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="890" y="580" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-202" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="yfKhijPMggqKRTxiLk1A-200" target="yfKhijPMggqKRTxiLk1A-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-203" value="&lt;b&gt;下一首: 播放song_5&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="yfKhijPMggqKRTxiLk1A-202">
+          <mxGeometry x="0.0853" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-200" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.right;strokeColor=#0080f0;dashPattern=1 1;fillColor=#FF0000;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="965" y="580" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-204" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;_addrefer:&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;1. song_1 到 song_6 ，都是搜索结果页song_2点击时被添加进来&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;值是: &lt;b&gt;[e][&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;2&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;][&lt;/font&gt;&lt;font color=&quot;#4d9900&quot;&gt;3&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;][&lt;/font&gt;song_2|page_search_result&lt;font color=&quot;#000000&quot;&gt;]&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;2. song_x2是个人主页点击添加进来&lt;br&gt;值：&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;[e][&lt;/font&gt;&lt;font color=&quot;#cc6600&quot;&gt;2&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;][&lt;/font&gt;&lt;font color=&quot;#4d9900&quot;&gt;11&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;][&lt;/font&gt;song_x2|page_user&lt;font color=&quot;#000000&quot;&gt;]&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;dashPattern=1 1;fontColor=#FF0000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="1070" width="382" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-205" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;_playrefer:&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;1. song_2的播放，直接原因是搜索结果页song_2的点击&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;值是: &lt;b&gt;[e][&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#cc6600&quot; style=&quot;font-weight: bold&quot;&gt;2&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-weight: bold&quot;&gt;][&lt;/font&gt;&lt;font color=&quot;#4d9900&quot; style=&quot;font-weight: bold&quot;&gt;3&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-weight: bold&quot;&gt;][&lt;/font&gt;&lt;b&gt;song_2|page_search_result&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;]，跟_adrefer相同&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;2. song_3, song_4 是播放器内部自动切换到了下一首&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;值: &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#999900&quot;&gt;auto_next&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;3. song_5是播放页“下一首”按钮点击&lt;br&gt;值：&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;[e][&lt;/font&gt;&lt;font color=&quot;#cc6600&quot;&gt;2&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;][&lt;/font&gt;&lt;font color=&quot;#4d9900&quot;&gt;4&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;][&lt;/font&gt;next|page_songplay&lt;font color=&quot;#000000&quot;&gt;]&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;dashPattern=1 1;fontColor=#FF0000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="1230" width="382" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-206" value="&lt;h1&gt;click事件发生时:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;1. _spm: next|page_songplay&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. _actseq: 2&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. _pgstep: 4&lt;/b&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="640" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-208" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="yfKhijPMggqKRTxiLk1A-207" target="yfKhijPMggqKRTxiLk1A-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfKhijPMggqKRTxiLk1A-207" value="&lt;b&gt;click事件:&lt;br&gt;&lt;font color=&quot;#cc6600&quot;&gt;_actseq +1&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="680" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
